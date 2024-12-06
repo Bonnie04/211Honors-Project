@@ -1,0 +1,5 @@
+/Users/M.Y./Documents/QTProject/build/CMakeFiles/skillswap.dir
+/Users/M.Y./Documents/QTProject/build/CMakeFiles/edit_cache.dir
+/Users/M.Y./Documents/QTProject/build/CMakeFiles/rebuild_cache.dir
+/Users/M.Y./Documents/QTProject/build/CMakeFiles/skillswap_autogen_timestamp_deps.dir
+/Users/M.Y./Documents/QTProject/build/CMakeFiles/skillswap_autogen.dir
