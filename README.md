@@ -1,47 +1,78 @@
-# 211Honors-Project
-#Tech-SistersSkillSwap
-
-A peer-to-peer skill exchange platform for BMCC students, facilitating knowledge sharing and collaboration across different disciplines.
-
-## Project Overview
+211Honors-Project
+Tech-SistersSkillSwap
+A peer to peer skill exchange platform for BMCC students, facilitating knowledge sharing and collaboration across different disciplines.
+Project Overview
 SkillSwap enables BMCC students to connect with peers for mutual learning and skill development. Students can offer their expertise in certain areas while seeking help in others, creating a collaborative learning environment.
+Features
 
-## Features
-- BMCC email verification
-- User profile management
-- Skill matching algorithm
-- Peer connection system
-- Meeting scheduling
+BMCC email verification
+User profile management
+Skill matching algorithm
+Peer connection
 
-## Technical Stack
-- C++ with Qt 6.6.3
-- SQLite database
-- CMake build system
+Technical Stack
 
-## Setup Instructions
-1. Install Qt 6.6.3
-2. Clone the repository
-3. Run CMake configuration
-4. Build and run the application
+C++ with Qt 6.6.3
+SQLite database
+CMake build system
 
-## Progress Status
-- [x] Database implementation
-- [x] User authentication
-- [x] Skill matching algorithm
-- [ ] UI implementation
-- [ ] Email verification
-- [ ] Meeting scheduler
+Build and Run Instructions
+Prerequisites
 
-## Future Enhancements
-- Real-time chat system
-- Rating system
-- Resource sharing platform
-- Study group formation
+Qt 6.6.3
+CMake
+C++ compiler
 
-## Challenges and Solutions
-(Document your challenges and how you overcame them here)
+Build Steps
+bashCopy# Clone and navigate to the project
+git clone https://github.com/Bonnie04/211Honors-Project.git
+cd 211Honors-Project
 
-## Contributors
-- Mekhribon Yusufbekova
-- Course: CSC 211H
-- Instructor: Dr. Azhar
+# Build the project
+mkdir -p build
+cd build
+cmake ..
+make
+
+# Run the application
+./skillswap
+Note: Make sure Qt is properly installed and in your PATH before building.
+Project Structure
+CopyQTProject/
+├── src/
+│   ├── main.cpp
+│   ├── database/
+│   │   └── database.cpp
+│   └── ui/
+│       ├── loginwindow.cpp
+│       ├── profilewindow.cpp
+│       └── registrationwindow.cpp
+├── include/
+│   ├── database/
+│   │   └── database.h
+│   └── ui/
+│       ├── loginwindow.h
+│       ├── profilewindow.h
+│       └── registrationwindow.h
+└── CMakeLists.txt
+Progress Status
+
+Database implementation
+User authentication
+Skill matching algorithm
+UI implementation
+Email verification
+Meeting scheduler
+
+Future Enhancements
+
+Real-time chat system
+Rating system
+Resource sharing platform
+Study group formation
+
+Contributors
+
+Mekhribon Yusufbekova
+Course: CSC 211H
+Instructor: Dr. Azhar
