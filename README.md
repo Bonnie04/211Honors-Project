@@ -36,26 +36,8 @@ make
 
 # Run the application
 ./skillswap
+
 Note: Make sure Qt is properly installed and in your PATH before building.
-Project Structure
-CopyQTProject/
-├── src/
-│   ├── main.cpp
-│   ├── database/
-│   │   └── database.cpp
-│   └── ui/
-│       ├── loginwindow.cpp
-│       ├── profilewindow.cpp
-│       └── registrationwindow.cpp
-├── include/
-│   ├── database/
-│   │   └── database.h
-│   └── ui/
-│       ├── loginwindow.h
-│       ├── profilewindow.h
-│       └── registrationwindow.h
-└── CMakeLists.txt
-Progress Status
 
 Database implementation
 User authentication
